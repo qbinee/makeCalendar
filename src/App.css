@@ -1,0 +1,61 @@
+.box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+div {
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #0d0c0c;
+}
+
+.monthBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #0d0c0c;
+
+}
+
+
+.weekName {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #0d0c0c;
+}
+
+.weekName > div {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.day {
+  width: 100%;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.day > div {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #0d0c0c;
+}
+
+.day > div > div {
+  flex: 1;
+}
+
